@@ -1,0 +1,23 @@
+/* About.css */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .about-image {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-content {
+    max-width: 600px;
+  }
+  h2{
+    font: 50
+    
+  }
+  /* Add more styling as needed */
+  

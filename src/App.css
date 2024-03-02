@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Container styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Header styling */
+header {
+  background-color:#062f5d;
   color: white;
+  padding: 10px;
+  text-align: center;
+  width: 800px;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Home and About page styling */
+h3 {
+  color: black;
+  font-size: large;
+}
+
+/* PostList styling (assuming it's a list of posts) */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
